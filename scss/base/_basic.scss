@@ -56,18 +56,18 @@ ul.list-style-none li{
 }
 
 // Hide Details marker
-// details>summary{
-//   list-style: none;
-// }
+details>summary{
+  list-style: none;
+}
 
-// summary::-webkit-details-marker{
-//   display: none;
-// }
+summary::-webkit-details-marker{
+  display: none;
+}
 
-// // Custom Details Marker
-// summary::after{
-//   content: '\2193';
-// }
+// Custom Details Marker
+summary::before{
+  content: '+  ';
+}
 
 details summary{
   cursor: pointer;

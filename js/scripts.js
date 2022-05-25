@@ -132,11 +132,11 @@ reveal__right();
 $(document).ready(function(){
     $('.owl-one').owlCarousel({
         autoplay:true,
-        autoplayTimeout:3500,
+        autoplayTimeout:4500,
         smartSpeed:1500,
         loop:true,
         // margin:10,
-        dots: false,
+        dots: true,
         nav:true,
         responsive:{
             0:{

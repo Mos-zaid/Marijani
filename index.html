@@ -39,6 +39,36 @@
 <body>
 
     <header>
+
+        <!-- WHITE HEADER (MOBILE) -->
+        <div class="bg-black">
+            <div class="d-flex d-lg-none align-items-center justify-content-between width-85 mx-auto pt-2">
+                <!-- MOBILE LOGO ICON -->
+                <div class="header__mobile-home col-9">
+                    <a href="./index.html"><img class="height-75" src="./images/Marjani_BW3-01-edited.png" alt="Marjani White logo"></a>
+                </div>
+    
+                <!-- MOBILE HAMBURGER -->
+                <div>
+                    <div class="pt-1 gap-1 header__mobile-menu d-lg-none d-block hamburger-script" aria-label="Button Hamburger">
+                        <img src="./images/more.png" alt="Marjani white Hamburger Icon">
+                    </div>
+                </div>
+            </div>    
+        </div>
+
+        <!-- MOBILE NAVLINKS -->
+        <div class="header__nav-links bg-black">
+            <nav>
+                <ul class="mobile-nav-script list-style-none d-none text-uppercase fw-500 fs-16 color-black d-flex flex-column gap-2 align-content-center justify-content-center pb-4 ps-0 fw-600 text-center mt-0 pt-3 mb-0">
+                    <li><a class="" href="index.html">SHOP</a></li>
+                    <li><a class="" href="about.html">ABOUT US</a></li>
+                    <li><a class="" href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
         
         <!-- DESKTOP WHITE HEADER -->
         <div class="container max-width-1170 d-none d-lg-flex justify-content-between align-items-center py-4 pt-5">
@@ -67,7 +97,7 @@
         </div>
 
         <!-- DESKTOP BLACK HEADER -->
-        <div class="bg-black">
+        <div class="d-none d-lg-block bg-black">
             <div class="container width-65 width-lg-30 color-white d-flex justify-content-between fw-300">
                 <p><a class="hover-underline-animation" href="#">SHOP</a></p>
                 <p><a class="hover-underline-animation" href="about.html">ABOUT</a></p>
@@ -79,7 +109,7 @@
 
     <main>
         <!-- BANNER -->
-        <div class="height-750 d-flex justify-content-center align-items-center" style="background:no-repeat linear-gradient(0deg, rgba(248, 252, 230, 0.271), rgba(255, 252, 237, 0.277)), url('./images/home.jpg'); background-position: center; background-size: cover;">
+        <div class="height-700 d-flex justify-content-center align-items-center" style="background:no-repeat linear-gradient(0deg, rgba(248, 252, 230, 0.271), rgba(255, 252, 237, 0.277)), url('./images/home.jpg'); background-position: center; background-size: cover;">
             <h1 class="text-center ls-3 ws-4 width-85 width-lg-90 mx-auto">MARJANI NATURALS, LLC.</h1>
         </div>
 
@@ -120,7 +150,7 @@
             <!-- Underline -->
             <div class="bt-1 width-70 width-lg-40 mx-auto mt-lg-5 pt-lg-5 mb-3 mb-lg-2"></div>
             <h3 class="text-center ls-3 pt-3 py-lg-0 my-lg-0 mb-3">Our Story</h3>
-            <p class="ls-3 color-gray-3 fs-20 fw-300 pb-3 py-lg-0 my-lg-0 mt-lg-4 mb-lg-5">Learn more about our process, our mission, and our essential oil blends</p>
+            <p class="ls-3 color-gray-3 fs-20 fw-300 pb-3 pb-lg-3 py-lg-0 my-lg-0 mt-lg-4 mb-lg-5">Learn more about our process, our mission, and our essential oil blends</p>
             <div class="container d-flex flex-column flex-lg-row justify-content-lg-around mx-auto">
                 <div>
                     <img class="medium-icon" src="./images/quality.png" alt="">
@@ -142,20 +172,20 @@
         <div class="my-4 py-3 text-center">
             <!-- Underline -->
             <div class="bt-1 width-70 width-lg-40 mx-auto mt-0 pt-0 mt-lg-5 pt-lg-5 mb-3 mb-lg-2"></div>
-            <h3 class="text-center ls-3 pt-3 py-lg-0 my-lg-0 mb-3">Testimonials</h3>
+            <h3 class="text-center ls-3 pt-3 py-lg-0 my-lg-0 mb-0 mb-lg-3 pb-lg-2">Testimonials</h3>
 
-            <div id="owl-carousel" class="container max-width-1000 width-90 width-lg-100 fs-24">
+            <div id="owl-carousel" class="owl-one owl-carousel owl-theme container max-width-1170 width-90 width-lg-100 fs-24 color-gray-3 mb-lg-5 pb-lg-4">
             <!-- <div id="owl-carousel" class="owl-one owl-carousel owl-theme container max-width-1000 width-90 width-lg-100 fs-24"> -->
-                <div>
+                <div class="max-width-1000 width-90 width-lg-100 mx-auto py-3 py-lg-4">
                     <p>"Lovely, creamy lotion, feels wonderfully moisturizing on the skin and glides on beautifully."</p>
                 </div>
-                <div>
+                <div class="max-width-1000 width-90 width-lg-100 mx-auto py-3 py-lg-4">
                     <p>"Beautiful cream for the body. Feels so luxurious on the body."</p>
                 </div>
-                <div>
+                <div class="max-width-1000 width-90 width-lg-100 mx-auto py-3 py-lg-4">
                     <p>"Easy to apply and sinks into the skin making it feel silky smooth."</p>
                 </div>
-                <div>
+                <div class="max-width-1000 width-90 width-lg-100 mx-auto py-3 py-lg-4">
                     <p>"Love love love the smell and my skin feels amazing."</p>
                 </div>
             </div>
@@ -172,10 +202,10 @@
                 <p>Garder City NY 11530</p>
             </div>
             <div class="col-12 col-lg-4">
-                <p><a class="hover-underline-animation" href="#">ABOUT</a></p>
+                <p><a class="hover-underline-animation" href="about.html">ABOUT</a></p>
                 <p><a class="hover-underline-animation" href="#">SHOP</a></p>
-                <p><a class="hover-underline-animation" href="#">FAQS</a></p>
-                <p><a class="hover-underline-animation" href="#">CONTACT</a></p>
+                <p><a class="hover-underline-animation" href="about.html#faq">FAQS</a></p>
+                <p><a class="hover-underline-animation" href="contact.html">CONTACT</a></p>
             </div>
             <div class="col-12 col-lg-4">
                 <p><a class="hover-underline-animation" href="#">SHIPPING</a></p>

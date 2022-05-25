@@ -926,6 +926,17 @@ a {
 }
 
 
+.height-700{
+  height: 80vh;
+  max-height: 700px!important;
+}
+
+.height-75{
+  height: 75px;
+}
+
+
+
 // .height-680{
 //   width: 100%;
 //   max-width: 680px!important;
@@ -1328,8 +1339,8 @@ img.footer-small-icon{
 }
 
 .btn--white{
+  background-color: $white;
   border: 1px $white solid;
-  color: $white;
 }
 
 .btn--dark{

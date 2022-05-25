@@ -39,6 +39,36 @@
 <body>
 
     <header>
+
+        <!-- WHITE HEADER (MOBILE) -->
+        <div class="bg-black">
+            <div class="d-flex d-lg-none align-items-center justify-content-between width-85 mx-auto pt-2">
+                <!-- MOBILE LOGO ICON -->
+                <div class="header__mobile-home col-9">
+                    <a href="./index.html"><img class="height-75" src="./images/Marjani_BW3-01-edited.png" alt="Marjani White logo"></a>
+                </div>
+    
+                <!-- MOBILE HAMBURGER -->
+                <div>
+                    <div class="pt-1 gap-1 header__mobile-menu d-lg-none d-block hamburger-script" aria-label="Button Hamburger">
+                        <img src="./images/more.png" alt="Marjani white Hamburger Icon">
+                    </div>
+                </div>
+            </div>    
+        </div>
+
+        <!-- MOBILE NAVLINKS -->
+        <div class="header__nav-links bg-black">
+            <nav>
+                <ul class="mobile-nav-script list-style-none d-none text-uppercase fw-500 fs-16 color-black d-flex flex-column gap-2 align-content-center justify-content-center pb-4 ps-0 fw-600 text-center mt-0 pt-3 mb-0">
+                    <li><a class="" href="index.html">SHOP</a></li>
+                    <li><a class="" href="about.html">ABOUT US</a></li>
+                    <li><a class="" href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
         
         <!-- DESKTOP WHITE HEADER -->
         <div class="container max-width-1170 d-none d-lg-flex justify-content-between align-items-center py-4 pt-5">
@@ -67,7 +97,7 @@
         </div>
 
         <!-- DESKTOP BLACK HEADER -->
-        <div class="bg-black">
+        <div class="d-none d-lg-block bg-black">
             <div class="container width-65 width-lg-30 color-white d-flex justify-content-between fw-300">
                 <p><a class="hover-underline-animation" href="#">SHOP</a></p>
                 <p><a class="hover-underline-animation" href="about.html">ABOUT</a></p>
@@ -79,21 +109,30 @@
 
     <main>
         <!-- BANNER -->
-        <div class="height-750 d-flex justify-content-center align-items-center" style="background:no-repeat linear-gradient(0deg, rgba(248, 252, 230, 0.271), rgba(255, 252, 237, 0.277)), url('./images/iStock-629690120.jpg'); background-position: center; background-size: cover;">
+        <div class="height-700 d-flex justify-content-center align-items-center" style="background:no-repeat linear-gradient(0deg, rgba(248, 252, 230, 0.271), rgba(255, 252, 237, 0.277)), url('./images/iStock-629690120.jpg'); background-position: center; background-size: cover;">
             <h1 class="text-center ls-3 ws-4 width-85 width-lg-90 mx-auto">GET IN TOUCH</h1>
         </div>
 
-        <p class="text-center color-gray-3 my-lg-5 pt-lg-3 pb-lg-5">Leave your message here and we will get back to you within 24-48 hrs</p>
+        <p class="width-85 width-lg-100 mx-auto text-center color-gray-3 my-lg-5 pt-4 pb-4 pt-lg-1 pb-lg-3">Leave your message here and we will get back to you within 24-48 hrs</p>
 
-        <div class="py-3 my-4 bg-black color-white width-90 width-lg-40 mx-auto">
-            <div>
-                <h3 class="text-center">Contact Us</h3>
-                <div class="mx-auto">
-                    <input class="d-block width-90" type="text">
-                    <input type="text">
-                </div>
+        <!-- CONTACT fORM -->
+        <div class="py-3 py-lg-3 mt-lg-3 mb-5 mb-lg-5 bg-black color-white max-width-700 width-90 width-lg-100 mx-auto">
+            <h3 class="text-center fw-400 pb-3 py-lg-4 fs-30">Contact Us</h3>
+            <div class="width-85 mx-auto">
+                <input class="width-100 py-3 px-3 fs-17" type="text" placeholder="Name">
             </div>
+            <div class="width-85 mx-auto my-1 py-4">
+                <input class="width-100 py-3 px-3 fs-17" type="text" placeholder="Email">
+            </div>
+            <div class="width-85 mx-auto ">
+                <textarea class="width-100 py-3 px-3 fs-17" rows="9" type="text" placeholder="Message"></textarea>
+            </div>
+
+            <p class="text-center my-5 my-lg-5"><a class="btn btn--white color-black fs-20 py-3 px-5" href="#">Send</a></p>
         </div>
+
+        <p class="text-center color-gray-3 mb-0 mt-lg-5 pt-lg-3">Other ways to contact us:</p>
+        <p class="text-center my-0 mb-5 pb-3 mb-lg-5 pb-lg-5"><a class="color-gray-3" href="mailto:Customerservice@marijaninaturals.com">Customerservice@marijaninaturals.com</a></p>
     </main>
 
 
@@ -106,10 +145,10 @@
                 <p>Garder City NY 11530</p>
             </div>
             <div class="col-12 col-lg-4">
-                <p><a class="hover-underline-animation" href="#">ABOUT</a></p>
+                <p><a class="hover-underline-animation" href="about.html">ABOUT</a></p>
                 <p><a class="hover-underline-animation" href="#">SHOP</a></p>
-                <p><a class="hover-underline-animation" href="#">FAQS</a></p>
-                <p><a class="hover-underline-animation" href="#">CONTACT</a></p>
+                <p><a class="hover-underline-animation" href="about.html#faq">FAQS</a></p>
+                <p><a class="hover-underline-animation" href="contact.html">CONTACT</a></p>
             </div>
             <div class="col-12 col-lg-4">
                 <p><a class="hover-underline-animation" href="#">SHIPPING</a></p>
